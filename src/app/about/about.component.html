@@ -1,0 +1,12 @@
+<p>
+  About page!
+  <br />
+  <!-- <a href="" (click)="sendMeHome()"><strong>Send Me Back To Home</strong></a>. -->
+  <a (click)="sendMeHome()" ><strong>Send Me Back To Home</strong></a>.
+</p>
+
+<ul>
+  <li *ngFor="let goal of goals">
+    {{ goal }}
+  </li>
+</ul>
